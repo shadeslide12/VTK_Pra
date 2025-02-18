@@ -11,6 +11,7 @@
 #include <vtkSTLReader.h>
 #include <vtkShrinkPolyData.h>
 #include <vtkLight.h>
+#include <vtkMultiBlockPLOT3DReader.h>
 Mainwindow::Mainwindow(QWidget *parent)
       : QMainWindow(parent)
       ,ui(new Ui::MainWindow){
@@ -22,6 +23,10 @@ Mainwindow::Mainwindow(QWidget *parent)
     cone->SetResolution(20);
     stlReader->SetFileName("/mnt/d/Code/VTK_Pra/Practice/STLReader/Turtle_Singlecolor.stl");
 
+    vtkNew<vtkMultiBlockPLOT3DReader> pl3d;
+    pl3d->SetXYZFileName("/mnt/d/Code/VTK_Pra/Practice/STLReader/combxyz.bin");
+    pl3d->SetQFileName("/mnt/d/Code/VTK_Pra/Practice/STLReader/combq.bin");
+
     vtkSmartPointer<vtkPolyDataMapper> mapper = vtkSmartPointer<vtkPolyDataMapper>::New();
     vtkSmartPointer<vtkActor> actor =  vtkSmartPointer<vtkActor>::New();
     vtkSmartPointer<vtkRenderer> renderer = vtkSmartPointer<vtkRenderer>::New();
@@ -29,7 +34,7 @@ Mainwindow::Mainwindow(QWidget *parent)
 
     vtkSmartPointer<vtkShrinkPolyData> shrinker =vtkSmartPointer<vtkShrinkPolyData>::New();
     shrinker->SetInputConnection(cone->GetOutputPort());
-    mapper->SetInputConnection(cone->GetOutputPort());
+    mapper->SetInputConnection(pl3d->GetOutputPort());
     actor->SetMapper(mapper);
     renderer->AddActor(actor);
 

@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kdTpv5"
-      binary: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kdTpv5"
+      source: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-alfajl"
+      binary: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-alfajl"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,15 +71,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kdTpv5'
+        Change Dir: '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-alfajl'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_05fef/fast
-        gmake: Warning: File 'Makefile' has modification time 0.0068 s in the future
-        /usr/bin/gmake  -f CMakeFiles/cmTC_05fef.dir/build.make CMakeFiles/cmTC_05fef.dir/build
-        gmake[1]: Entering directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kdTpv5'
-        gmake[1]: Warning: File 'CMakeFiles/cmTC_05fef.dir/progress.make' has modification time 0.019 s in the future
-        Building C object CMakeFiles/cmTC_05fef.dir/CMakeCCompilerABI.c.o
-        /usr/bin/mpicc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_05fef.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e7923/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e7923.dir/build.make CMakeFiles/cmTC_e7923.dir/build
+        gmake[1]: Entering directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-alfajl'
+        Building C object CMakeFiles/cmTC_e7923.dir/CMakeCCompilerABI.c.o
+        /usr/bin/mpicc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_e7923.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
         mpicc for MPICH version 4.2.0
         Using built-in specs.
         COLLECT_GCC=gcc
@@ -90,8 +88,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_05fef.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_05fef.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -I /usr/lib/x86_64-linux-gnu/mpich/include -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_05fef.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccsebaKw.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_e7923.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e7923.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -I /usr/lib/x86_64-linux-gnu/mpich/include -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e7923.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccUVw8zb.s
         GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -109,15 +107,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 38987c28e967c64056a6454abdef726e
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_05fef.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_05fef.dir/'
-         as -v -I /usr/lib/x86_64-linux-gnu/mpich/include --64 -o CMakeFiles/cmTC_05fef.dir/CMakeCCompilerABI.c.o /tmp/ccsebaKw.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_e7923.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e7923.dir/'
+         as -v -I /usr/lib/x86_64-linux-gnu/mpich/include --64 -o CMakeFiles/cmTC_e7923.dir/CMakeCCompilerABI.c.o /tmp/ccUVw8zb.s
         GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_05fef.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_05fef.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_05fef
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05fef.dir/link.txt --verbose=1
-        /usr/bin/mpicc  -v CMakeFiles/cmTC_05fef.dir/CMakeCCompilerABI.c.o -o cmTC_05fef 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_e7923.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e7923.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_e7923
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7923.dir/link.txt --verbose=1
+        /usr/bin/mpicc  -v CMakeFiles/cmTC_e7923.dir/CMakeCCompilerABI.c.o -o cmTC_e7923 
         mpicc for MPICH version 4.2.0
         Using built-in specs.
         COLLECT_GCC=gcc
@@ -131,12 +129,10 @@ events:
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-flto=auto' '-ffat-lto-objects' '-v' '-o' 'cmTC_05fef' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-L/usr/lib/x86_64-linux-gnu/mpich/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_05fef.'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdEfdDL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -flto=auto --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_05fef /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/x86_64-linux-gnu/mpich/lib -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_05fef.dir/CMakeCCompilerABI.c.o -lmpich -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-flto=auto' '-ffat-lto-objects' '-v' '-o' 'cmTC_05fef' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-L/usr/lib/x86_64-linux-gnu/mpich/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_05fef.'
-        gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
-        gmake[1]: Leaving directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kdTpv5'
-        gmake: warning:  Clock skew detected.  Your build may be incomplete.
+        COLLECT_GCC_OPTIONS='-flto=auto' '-ffat-lto-objects' '-v' '-o' 'cmTC_e7923' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-L/usr/lib/x86_64-linux-gnu/mpich/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e7923.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cchniH2c.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -flto=auto --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e7923 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/x86_64-linux-gnu/mpich/lib -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_e7923.dir/CMakeCCompilerABI.c.o -lmpich -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-flto=auto' '-ffat-lto-objects' '-v' '-o' 'cmTC_e7923' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-L/usr/lib/x86_64-linux-gnu/mpich/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e7923.'
+        gmake[1]: Leaving directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-alfajl'
         
       exitCode: 0
   -
@@ -172,15 +168,13 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kdTpv5']
+        ignore line: [Change Dir: '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-alfajl']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_05fef/fast]
-        ignore line: [gmake: Warning: File 'Makefile' has modification time 0.0068 s in the future]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_05fef.dir/build.make CMakeFiles/cmTC_05fef.dir/build]
-        ignore line: [gmake[1]: Entering directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kdTpv5']
-        ignore line: [gmake[1]: Warning: File 'CMakeFiles/cmTC_05fef.dir/progress.make' has modification time 0.019 s in the future]
-        ignore line: [Building C object CMakeFiles/cmTC_05fef.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/mpicc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_05fef.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e7923/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_e7923.dir/build.make CMakeFiles/cmTC_e7923.dir/build]
+        ignore line: [gmake[1]: Entering directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-alfajl']
+        ignore line: [Building C object CMakeFiles/cmTC_e7923.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/mpicc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_e7923.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
         ignore line: [mpicc for MPICH version 4.2.0]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=gcc]
@@ -191,8 +185,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_05fef.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_05fef.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -I /usr/lib/x86_64-linux-gnu/mpich/include -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_05fef.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccsebaKw.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_e7923.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e7923.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -I /usr/lib/x86_64-linux-gnu/mpich/include -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_e7923.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccUVw8zb.s]
         ignore line: [GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -210,15 +204,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 38987c28e967c64056a6454abdef726e]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_05fef.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_05fef.dir/']
-        ignore line: [ as -v -I /usr/lib/x86_64-linux-gnu/mpich/include --64 -o CMakeFiles/cmTC_05fef.dir/CMakeCCompilerABI.c.o /tmp/ccsebaKw.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_e7923.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e7923.dir/']
+        ignore line: [ as -v -I /usr/lib/x86_64-linux-gnu/mpich/include --64 -o CMakeFiles/cmTC_e7923.dir/CMakeCCompilerABI.c.o /tmp/ccUVw8zb.s]
         ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_05fef.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_05fef.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_05fef]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05fef.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/mpicc  -v CMakeFiles/cmTC_05fef.dir/CMakeCCompilerABI.c.o -o cmTC_05fef ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_e7923.dir/CMakeCCompilerABI.c.o' '-c' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e7923.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_e7923]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7923.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/mpicc  -v CMakeFiles/cmTC_e7923.dir/CMakeCCompilerABI.c.o -o cmTC_e7923 ]
         ignore line: [mpicc for MPICH version 4.2.0]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=gcc]
@@ -232,13 +226,13 @@ events:
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-flto=auto' '-ffat-lto-objects' '-v' '-o' 'cmTC_05fef' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-L/usr/lib/x86_64-linux-gnu/mpich/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_05fef.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdEfdDL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -flto=auto --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_05fef /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/x86_64-linux-gnu/mpich/lib -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_05fef.dir/CMakeCCompilerABI.c.o -lmpich -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-flto=auto' '-ffat-lto-objects' '-v' '-o' 'cmTC_e7923' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-L/usr/lib/x86_64-linux-gnu/mpich/lib' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e7923.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cchniH2c.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -flto=auto --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e7923 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/x86_64-linux-gnu/mpich/lib -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_e7923.dir/CMakeCCompilerABI.c.o -lmpich -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccdEfdDL.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cchniH2c.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -257,7 +251,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_05fef] ==> ignore
+          arg [cmTC_e7923] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
@@ -272,7 +266,7 @@ events:
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
           arg [-Bsymbolic-functions] ==> ignore
           arg [-zrelro] ==> ignore
-          arg [CMakeFiles/cmTC_05fef.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_e7923.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lmpich] ==> lib [mpich]
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
@@ -314,8 +308,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BkZZKa"
-      binary: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BkZZKa"
+      source: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DLOBCI"
+      binary: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DLOBCI"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -324,13 +318,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BkZZKa'
+        Change Dir: '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DLOBCI'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_75752/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_75752.dir/build.make CMakeFiles/cmTC_75752.dir/build
-        gmake[1]: Entering directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BkZZKa'
-        Building CXX object CMakeFiles/cmTC_75752.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/mpicxx   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_75752.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c8bbd/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c8bbd.dir/build.make CMakeFiles/cmTC_c8bbd.dir/build
+        gmake[1]: Entering directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DLOBCI'
+        Building CXX object CMakeFiles/cmTC_c8bbd.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/mpicxx   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_c8bbd.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
         mpicxx for MPICH version 4.2.0
         Using built-in specs.
         COLLECT_GCC=g++
@@ -341,8 +335,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_75752.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_75752.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -I /usr/lib/x86_64-linux-gnu/mpich/include -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_75752.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccT3vUTZ.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_c8bbd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c8bbd.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -I /usr/lib/x86_64-linux-gnu/mpich/include -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c8bbd.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc8ZNGZi.s
         GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -364,15 +358,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: c81c05345ce537099dafd5580045814a
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_75752.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_75752.dir/'
-         as -v -I /usr/lib/x86_64-linux-gnu/mpich/include --64 -o CMakeFiles/cmTC_75752.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccT3vUTZ.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_c8bbd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c8bbd.dir/'
+         as -v -I /usr/lib/x86_64-linux-gnu/mpich/include --64 -o CMakeFiles/cmTC_c8bbd.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc8ZNGZi.s
         GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_75752.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_75752.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_75752
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75752.dir/link.txt --verbose=1
-        /usr/bin/mpicxx  -v CMakeFiles/cmTC_75752.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_75752 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_c8bbd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c8bbd.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_c8bbd
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8bbd.dir/link.txt --verbose=1
+        /usr/bin/mpicxx  -v CMakeFiles/cmTC_c8bbd.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c8bbd 
         mpicxx for MPICH version 4.2.0
         Using built-in specs.
         COLLECT_GCC=g++
@@ -386,10 +380,10 @@ events:
         gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-flto=auto' '-ffat-lto-objects' '-v' '-o' 'cmTC_75752' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-L/usr/lib/x86_64-linux-gnu/mpich/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_75752.'
-         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBbnerY.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -flto=auto --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_75752 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/x86_64-linux-gnu/mpich/lib -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_75752.dir/CMakeCXXCompilerABI.cpp.o -lmpichcxx -lmpich -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-flto=auto' '-ffat-lto-objects' '-v' '-o' 'cmTC_75752' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-L/usr/lib/x86_64-linux-gnu/mpich/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_75752.'
-        gmake[1]: Leaving directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BkZZKa'
+        COLLECT_GCC_OPTIONS='-flto=auto' '-ffat-lto-objects' '-v' '-o' 'cmTC_c8bbd' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-L/usr/lib/x86_64-linux-gnu/mpich/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c8bbd.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccP8g1l8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -flto=auto --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c8bbd /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/x86_64-linux-gnu/mpich/lib -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_c8bbd.dir/CMakeCXXCompilerABI.cpp.o -lmpichcxx -lmpich -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-flto=auto' '-ffat-lto-objects' '-v' '-o' 'cmTC_c8bbd' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-L/usr/lib/x86_64-linux-gnu/mpich/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c8bbd.'
+        gmake[1]: Leaving directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DLOBCI'
         
       exitCode: 0
   -
@@ -431,13 +425,13 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BkZZKa']
+        ignore line: [Change Dir: '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DLOBCI']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_75752/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_75752.dir/build.make CMakeFiles/cmTC_75752.dir/build]
-        ignore line: [gmake[1]: Entering directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BkZZKa']
-        ignore line: [Building CXX object CMakeFiles/cmTC_75752.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/mpicxx   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_75752.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c8bbd/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_c8bbd.dir/build.make CMakeFiles/cmTC_c8bbd.dir/build]
+        ignore line: [gmake[1]: Entering directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DLOBCI']
+        ignore line: [Building CXX object CMakeFiles/cmTC_c8bbd.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/mpicxx   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_c8bbd.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [mpicxx for MPICH version 4.2.0]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=g++]
@@ -448,8 +442,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_75752.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_75752.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -I /usr/lib/x86_64-linux-gnu/mpich/include -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_75752.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccT3vUTZ.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_c8bbd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c8bbd.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -I /usr/lib/x86_64-linux-gnu/mpich/include -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c8bbd.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc8ZNGZi.s]
         ignore line: [GNU C++17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -471,15 +465,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: c81c05345ce537099dafd5580045814a]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_75752.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_75752.dir/']
-        ignore line: [ as -v -I /usr/lib/x86_64-linux-gnu/mpich/include --64 -o CMakeFiles/cmTC_75752.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccT3vUTZ.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_c8bbd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c8bbd.dir/']
+        ignore line: [ as -v -I /usr/lib/x86_64-linux-gnu/mpich/include --64 -o CMakeFiles/cmTC_c8bbd.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc8ZNGZi.s]
         ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_75752.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_75752.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_75752]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75752.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/mpicxx  -v CMakeFiles/cmTC_75752.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_75752 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_c8bbd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c8bbd.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_c8bbd]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8bbd.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/mpicxx  -v CMakeFiles/cmTC_c8bbd.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c8bbd ]
         ignore line: [mpicxx for MPICH version 4.2.0]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=g++]
@@ -493,13 +487,13 @@ events:
         ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-flto=auto' '-ffat-lto-objects' '-v' '-o' 'cmTC_75752' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-L/usr/lib/x86_64-linux-gnu/mpich/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_75752.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBbnerY.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -flto=auto --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_75752 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/x86_64-linux-gnu/mpich/lib -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_75752.dir/CMakeCXXCompilerABI.cpp.o -lmpichcxx -lmpich -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-flto=auto' '-ffat-lto-objects' '-v' '-o' 'cmTC_c8bbd' '-I' '/usr/lib/x86_64-linux-gnu/mpich/include' '-L/usr/lib/x86_64-linux-gnu/mpich/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c8bbd.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccP8g1l8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -flto=auto --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c8bbd /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/x86_64-linux-gnu/mpich/lib -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. -Bsymbolic-functions -z relro CMakeFiles/cmTC_c8bbd.dir/CMakeCXXCompilerABI.cpp.o -lmpichcxx -lmpich -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccBbnerY.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccP8g1l8.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -518,7 +512,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_75752] ==> ignore
+          arg [cmTC_c8bbd] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
@@ -533,7 +527,7 @@ events:
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
           arg [-Bsymbolic-functions] ==> ignore
           arg [-zrelro] ==> ignore
-          arg [CMakeFiles/cmTC_75752.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_c8bbd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lmpichcxx] ==> lib [mpichcxx]
           arg [-lmpich] ==> lib [mpich]
           arg [-lstdc++] ==> lib [stdc++]
@@ -576,8 +570,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vUlv3v"
-      binary: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vUlv3v"
+      source: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-avDRZu"
+      binary: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-avDRZu"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -587,17 +581,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vUlv3v'
+        Change Dir: '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-avDRZu'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_696af/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_696af.dir/build.make CMakeFiles/cmTC_696af.dir/build
-        gmake[1]: Entering directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vUlv3v'
-        Building C object CMakeFiles/cmTC_696af.dir/src.c.o
-        /usr/bin/mpicc -DCMAKE_HAVE_LIBC_PTHREAD  -fdiagnostics-color=always -o CMakeFiles/cmTC_696af.dir/src.c.o -c /mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vUlv3v/src.c
-        Linking C executable cmTC_696af
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_696af.dir/link.txt --verbose=1
-        /usr/bin/mpicc CMakeFiles/cmTC_696af.dir/src.c.o -o cmTC_696af 
-        gmake[1]: Leaving directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vUlv3v'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9e4c7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9e4c7.dir/build.make CMakeFiles/cmTC_9e4c7.dir/build
+        gmake[1]: Entering directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-avDRZu'
+        Building C object CMakeFiles/cmTC_9e4c7.dir/src.c.o
+        /usr/bin/mpicc -DCMAKE_HAVE_LIBC_PTHREAD  -fdiagnostics-color=always -o CMakeFiles/cmTC_9e4c7.dir/src.c.o -c /mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-avDRZu/src.c
+        Linking C executable cmTC_9e4c7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e4c7.dir/link.txt --verbose=1
+        /usr/bin/mpicc CMakeFiles/cmTC_9e4c7.dir/src.c.o -o cmTC_9e4c7 
+        gmake[1]: Leaving directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-avDRZu'
         
       exitCode: 0
   -
@@ -611,8 +605,8 @@ events:
     checks:
       - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
     directories:
-      source: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tpbtrY"
-      binary: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tpbtrY"
+      source: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZEYPxB"
+      binary: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZEYPxB"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -622,17 +616,21 @@ events:
       variable: "X11_LIB_X11_SOLO"
       cached: true
       stdout: |
-        Change Dir: '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tpbtrY'
+        Change Dir: '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZEYPxB'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b3cc1/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_b3cc1.dir/build.make CMakeFiles/cmTC_b3cc1.dir/build
-        gmake[1]: Entering directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tpbtrY'
-        Building C object CMakeFiles/cmTC_b3cc1.dir/CheckFunctionExists.c.o
-        /usr/bin/mpicc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -fdiagnostics-color=always -o CMakeFiles/cmTC_b3cc1.dir/CheckFunctionExists.c.o -c /mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tpbtrY/CheckFunctionExists.c
-        Linking C executable cmTC_b3cc1
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3cc1.dir/link.txt --verbose=1
-        /usr/bin/mpicc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_b3cc1.dir/CheckFunctionExists.c.o -o cmTC_b3cc1  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
-        gmake[1]: Leaving directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tpbtrY'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_21256/fast
+        gmake: Warning: File 'Makefile' has modification time 0.76 s in the future
+        /usr/bin/gmake  -f CMakeFiles/cmTC_21256.dir/build.make CMakeFiles/cmTC_21256.dir/build
+        gmake[1]: Entering directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZEYPxB'
+        gmake[1]: Warning: File 'CMakeFiles/cmTC_21256.dir/flags.make' has modification time 0.74 s in the future
+        Building C object CMakeFiles/cmTC_21256.dir/CheckFunctionExists.c.o
+        /usr/bin/mpicc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -fdiagnostics-color=always -o CMakeFiles/cmTC_21256.dir/CheckFunctionExists.c.o -c /mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZEYPxB/CheckFunctionExists.c
+        Linking C executable cmTC_21256
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21256.dir/link.txt --verbose=1
+        /usr/bin/mpicc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_21256.dir/CheckFunctionExists.c.o -o cmTC_21256  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+        gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+        gmake[1]: Leaving directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZEYPxB'
+        gmake: warning:  Clock skew detected.  Your build may be incomplete.
         
       exitCode: 0
   -
@@ -646,8 +644,8 @@ events:
     checks:
       - "Looking for gethostbyname"
     directories:
-      source: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-F5KHp1"
-      binary: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-F5KHp1"
+      source: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mzgTqT"
+      binary: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mzgTqT"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -657,17 +655,21 @@ events:
       variable: "CMAKE_HAVE_GETHOSTBYNAME"
       cached: true
       stdout: |
-        Change Dir: '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-F5KHp1'
+        Change Dir: '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mzgTqT'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_80bef/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_80bef.dir/build.make CMakeFiles/cmTC_80bef.dir/build
-        gmake[1]: Entering directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-F5KHp1'
-        Building C object CMakeFiles/cmTC_80bef.dir/CheckFunctionExists.c.o
-        /usr/bin/mpicc   -DCHECK_FUNCTION_EXISTS=gethostbyname -fdiagnostics-color=always -o CMakeFiles/cmTC_80bef.dir/CheckFunctionExists.c.o -c /mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-F5KHp1/CheckFunctionExists.c
-        Linking C executable cmTC_80bef
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80bef.dir/link.txt --verbose=1
-        /usr/bin/mpicc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_80bef.dir/CheckFunctionExists.c.o -o cmTC_80bef 
-        gmake[1]: Leaving directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-F5KHp1'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_15a23/fast
+        gmake: Warning: File 'Makefile' has modification time 0.73 s in the future
+        /usr/bin/gmake  -f CMakeFiles/cmTC_15a23.dir/build.make CMakeFiles/cmTC_15a23.dir/build
+        gmake[1]: Entering directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mzgTqT'
+        gmake[1]: Warning: File 'CMakeFiles/cmTC_15a23.dir/flags.make' has modification time 0.72 s in the future
+        Building C object CMakeFiles/cmTC_15a23.dir/CheckFunctionExists.c.o
+        /usr/bin/mpicc   -DCHECK_FUNCTION_EXISTS=gethostbyname -fdiagnostics-color=always -o CMakeFiles/cmTC_15a23.dir/CheckFunctionExists.c.o -c /mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mzgTqT/CheckFunctionExists.c
+        Linking C executable cmTC_15a23
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15a23.dir/link.txt --verbose=1
+        /usr/bin/mpicc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_15a23.dir/CheckFunctionExists.c.o -o cmTC_15a23 
+        gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+        gmake[1]: Leaving directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mzgTqT'
+        gmake: warning:  Clock skew detected.  Your build may be incomplete.
         
       exitCode: 0
   -
@@ -681,8 +683,8 @@ events:
     checks:
       - "Looking for connect"
     directories:
-      source: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-x5HAnA"
-      binary: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-x5HAnA"
+      source: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xOFo03"
+      binary: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xOFo03"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -692,17 +694,21 @@ events:
       variable: "CMAKE_HAVE_CONNECT"
       cached: true
       stdout: |
-        Change Dir: '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-x5HAnA'
+        Change Dir: '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xOFo03'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1390c/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_1390c.dir/build.make CMakeFiles/cmTC_1390c.dir/build
-        gmake[1]: Entering directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-x5HAnA'
-        Building C object CMakeFiles/cmTC_1390c.dir/CheckFunctionExists.c.o
-        /usr/bin/mpicc   -DCHECK_FUNCTION_EXISTS=connect -fdiagnostics-color=always -o CMakeFiles/cmTC_1390c.dir/CheckFunctionExists.c.o -c /mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-x5HAnA/CheckFunctionExists.c
-        Linking C executable cmTC_1390c
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1390c.dir/link.txt --verbose=1
-        /usr/bin/mpicc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_1390c.dir/CheckFunctionExists.c.o -o cmTC_1390c 
-        gmake[1]: Leaving directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-x5HAnA'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c8356/fast
+        gmake: Warning: File 'Makefile' has modification time 0.7 s in the future
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c8356.dir/build.make CMakeFiles/cmTC_c8356.dir/build
+        gmake[1]: Entering directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xOFo03'
+        gmake[1]: Warning: File 'CMakeFiles/cmTC_c8356.dir/flags.make' has modification time 0.68 s in the future
+        Building C object CMakeFiles/cmTC_c8356.dir/CheckFunctionExists.c.o
+        /usr/bin/mpicc   -DCHECK_FUNCTION_EXISTS=connect -fdiagnostics-color=always -o CMakeFiles/cmTC_c8356.dir/CheckFunctionExists.c.o -c /mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xOFo03/CheckFunctionExists.c
+        Linking C executable cmTC_c8356
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8356.dir/link.txt --verbose=1
+        /usr/bin/mpicc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_c8356.dir/CheckFunctionExists.c.o -o cmTC_c8356 
+        gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+        gmake[1]: Leaving directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xOFo03'
+        gmake: warning:  Clock skew detected.  Your build may be incomplete.
         
       exitCode: 0
   -
@@ -716,8 +722,8 @@ events:
     checks:
       - "Looking for remove"
     directories:
-      source: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AwSFDz"
-      binary: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AwSFDz"
+      source: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YvbJAy"
+      binary: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YvbJAy"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -727,17 +733,21 @@ events:
       variable: "CMAKE_HAVE_REMOVE"
       cached: true
       stdout: |
-        Change Dir: '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AwSFDz'
+        Change Dir: '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YvbJAy'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2fabe/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_2fabe.dir/build.make CMakeFiles/cmTC_2fabe.dir/build
-        gmake[1]: Entering directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AwSFDz'
-        Building C object CMakeFiles/cmTC_2fabe.dir/CheckFunctionExists.c.o
-        /usr/bin/mpicc   -DCHECK_FUNCTION_EXISTS=remove -fdiagnostics-color=always -o CMakeFiles/cmTC_2fabe.dir/CheckFunctionExists.c.o -c /mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AwSFDz/CheckFunctionExists.c
-        Linking C executable cmTC_2fabe
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fabe.dir/link.txt --verbose=1
-        /usr/bin/mpicc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_2fabe.dir/CheckFunctionExists.c.o -o cmTC_2fabe 
-        gmake[1]: Leaving directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AwSFDz'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1ff74/fast
+        gmake: Warning: File 'Makefile' has modification time 0.68 s in the future
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1ff74.dir/build.make CMakeFiles/cmTC_1ff74.dir/build
+        gmake[1]: Entering directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YvbJAy'
+        gmake[1]: Warning: File 'CMakeFiles/cmTC_1ff74.dir/flags.make' has modification time 0.67 s in the future
+        Building C object CMakeFiles/cmTC_1ff74.dir/CheckFunctionExists.c.o
+        /usr/bin/mpicc   -DCHECK_FUNCTION_EXISTS=remove -fdiagnostics-color=always -o CMakeFiles/cmTC_1ff74.dir/CheckFunctionExists.c.o -c /mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YvbJAy/CheckFunctionExists.c
+        Linking C executable cmTC_1ff74
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ff74.dir/link.txt --verbose=1
+        /usr/bin/mpicc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_1ff74.dir/CheckFunctionExists.c.o -o cmTC_1ff74 
+        gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+        gmake[1]: Leaving directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-YvbJAy'
+        gmake: warning:  Clock skew detected.  Your build may be incomplete.
         
       exitCode: 0
   -
@@ -751,8 +761,8 @@ events:
     checks:
       - "Looking for shmat"
     directories:
-      source: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-62t4PA"
-      binary: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-62t4PA"
+      source: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5Q01pZ"
+      binary: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5Q01pZ"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -762,17 +772,21 @@ events:
       variable: "CMAKE_HAVE_SHMAT"
       cached: true
       stdout: |
-        Change Dir: '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-62t4PA'
+        Change Dir: '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5Q01pZ'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0cd0f/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_0cd0f.dir/build.make CMakeFiles/cmTC_0cd0f.dir/build
-        gmake[1]: Entering directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-62t4PA'
-        Building C object CMakeFiles/cmTC_0cd0f.dir/CheckFunctionExists.c.o
-        /usr/bin/mpicc   -DCHECK_FUNCTION_EXISTS=shmat -fdiagnostics-color=always -o CMakeFiles/cmTC_0cd0f.dir/CheckFunctionExists.c.o -c /mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-62t4PA/CheckFunctionExists.c
-        Linking C executable cmTC_0cd0f
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0cd0f.dir/link.txt --verbose=1
-        /usr/bin/mpicc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_0cd0f.dir/CheckFunctionExists.c.o -o cmTC_0cd0f 
-        gmake[1]: Leaving directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-62t4PA'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ce04e/fast
+        gmake: Warning: File 'Makefile' has modification time 0.66 s in the future
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ce04e.dir/build.make CMakeFiles/cmTC_ce04e.dir/build
+        gmake[1]: Entering directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5Q01pZ'
+        gmake[1]: Warning: File 'CMakeFiles/cmTC_ce04e.dir/flags.make' has modification time 0.64 s in the future
+        Building C object CMakeFiles/cmTC_ce04e.dir/CheckFunctionExists.c.o
+        /usr/bin/mpicc   -DCHECK_FUNCTION_EXISTS=shmat -fdiagnostics-color=always -o CMakeFiles/cmTC_ce04e.dir/CheckFunctionExists.c.o -c /mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5Q01pZ/CheckFunctionExists.c
+        Linking C executable cmTC_ce04e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce04e.dir/link.txt --verbose=1
+        /usr/bin/mpicc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_ce04e.dir/CheckFunctionExists.c.o -o cmTC_ce04e 
+        gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+        gmake[1]: Leaving directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5Q01pZ'
+        gmake: warning:  Clock skew detected.  Your build may be incomplete.
         
       exitCode: 0
   -
@@ -786,8 +800,8 @@ events:
     checks:
       - "Looking for IceConnectionNumber in ICE"
     directories:
-      source: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mmRe6u"
-      binary: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mmRe6u"
+      source: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3F8chv"
+      binary: "/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3F8chv"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -797,17 +811,21 @@ events:
       variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
       cached: true
       stdout: |
-        Change Dir: '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mmRe6u'
+        Change Dir: '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3F8chv'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_74714/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_74714.dir/build.make CMakeFiles/cmTC_74714.dir/build
-        gmake[1]: Entering directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mmRe6u'
-        Building C object CMakeFiles/cmTC_74714.dir/CheckFunctionExists.c.o
-        /usr/bin/mpicc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -fdiagnostics-color=always -o CMakeFiles/cmTC_74714.dir/CheckFunctionExists.c.o -c /mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mmRe6u/CheckFunctionExists.c
-        Linking C executable cmTC_74714
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74714.dir/link.txt --verbose=1
-        /usr/bin/mpicc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_74714.dir/CheckFunctionExists.c.o -o cmTC_74714  -lICE 
-        gmake[1]: Leaving directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mmRe6u'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3bb60/fast
+        gmake: Warning: File 'Makefile' has modification time 0.63 s in the future
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3bb60.dir/build.make CMakeFiles/cmTC_3bb60.dir/build
+        gmake[1]: Entering directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3F8chv'
+        gmake[1]: Warning: File 'CMakeFiles/cmTC_3bb60.dir/flags.make' has modification time 0.62 s in the future
+        Building C object CMakeFiles/cmTC_3bb60.dir/CheckFunctionExists.c.o
+        /usr/bin/mpicc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -fdiagnostics-color=always -o CMakeFiles/cmTC_3bb60.dir/CheckFunctionExists.c.o -c /mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3F8chv/CheckFunctionExists.c
+        Linking C executable cmTC_3bb60
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bb60.dir/link.txt --verbose=1
+        /usr/bin/mpicc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_3bb60.dir/CheckFunctionExists.c.o -o cmTC_3bb60  -lICE 
+        gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+        gmake[1]: Leaving directory '/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3F8chv'
+        gmake: warning:  Clock skew detected.  Your build may be incomplete.
         
       exitCode: 0
 ...

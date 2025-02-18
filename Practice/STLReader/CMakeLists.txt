@@ -13,7 +13,6 @@ if (NOT Qt5_FOUND)
 endif()
 
 find_package(VTK COMPONENTS
-  IOGeometry
   CommonColor
   CommonCore
   FiltersSources
@@ -24,6 +23,8 @@ find_package(VTK COMPONENTS
   RenderingGL2PSOpenGL2
   RenderingOpenGL2
   GUISupportQt
+  IOGeometry
+  IOPLOT3D
 )
 
 if (NOT VTK_FOUND)

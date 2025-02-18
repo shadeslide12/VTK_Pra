@@ -1,5 +1,0 @@
-/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/vtk_window.dir
-/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/edit_cache.dir
-/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/vtk_window_autogen_timestamp_deps.dir
-/mnt/d/Code/VTK_Pra/Practice/STLReader/cmake-build-debug/CMakeFiles/vtk_window_autogen.dir
