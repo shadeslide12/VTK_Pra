@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/Code/VTK/Practice/CylinderExample
+# Install script for directory: /mnt/d/Code/VTK_Pra/Practice/CylinderExample
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/d/Code/VTK/Practice/CylinderExample/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/d/Code/VTK_Pra/Practice/CylinderExample/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

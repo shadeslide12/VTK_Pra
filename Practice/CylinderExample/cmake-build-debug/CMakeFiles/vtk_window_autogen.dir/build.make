@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/Code/VTK/Practice/CylinderExample
+CMAKE_SOURCE_DIR = /mnt/d/Code/VTK_Pra/Practice/CylinderExample
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/Code/VTK/Practice/CylinderExample/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/d/Code/VTK_Pra/Practice/CylinderExample/cmake-build-debug
 
 # Utility rule file for vtk_window_autogen.
 
@@ -71,9 +71,9 @@ CMakeFiles/vtk_window_autogen: vtk_window_autogen/timestamp
 vtk_window_autogen/timestamp: /home/tux/Qt/5.15.2/gcc_64/bin/moc
 vtk_window_autogen/timestamp: /home/tux/Qt/5.15.2/gcc_64/bin/uic
 vtk_window_autogen/timestamp: CMakeFiles/vtk_window_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/d/Code/VTK/Practice/CylinderExample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target vtk_window"
-	/usr/bin/cmake -E cmake_autogen /mnt/d/Code/VTK/Practice/CylinderExample/cmake-build-debug/CMakeFiles/vtk_window_autogen.dir/AutogenInfo.json Debug
-	/usr/bin/cmake -E touch /mnt/d/Code/VTK/Practice/CylinderExample/cmake-build-debug/vtk_window_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/d/Code/VTK_Pra/Practice/CylinderExample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target vtk_window"
+	/usr/bin/cmake -E cmake_autogen /mnt/d/Code/VTK_Pra/Practice/CylinderExample/cmake-build-debug/CMakeFiles/vtk_window_autogen.dir/AutogenInfo.json Debug
+	/usr/bin/cmake -E touch /mnt/d/Code/VTK_Pra/Practice/CylinderExample/cmake-build-debug/vtk_window_autogen/timestamp
 
 vtk_window_autogen: CMakeFiles/vtk_window_autogen
 vtk_window_autogen: vtk_window_autogen/timestamp
@@ -89,6 +89,6 @@ CMakeFiles/vtk_window_autogen.dir/clean:
 .PHONY : CMakeFiles/vtk_window_autogen.dir/clean
 
 CMakeFiles/vtk_window_autogen.dir/depend:
-	cd /mnt/d/Code/VTK/Practice/CylinderExample/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Code/VTK/Practice/CylinderExample /mnt/d/Code/VTK/Practice/CylinderExample /mnt/d/Code/VTK/Practice/CylinderExample/cmake-build-debug /mnt/d/Code/VTK/Practice/CylinderExample/cmake-build-debug /mnt/d/Code/VTK/Practice/CylinderExample/cmake-build-debug/CMakeFiles/vtk_window_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/d/Code/VTK_Pra/Practice/CylinderExample/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/d/Code/VTK_Pra/Practice/CylinderExample /mnt/d/Code/VTK_Pra/Practice/CylinderExample /mnt/d/Code/VTK_Pra/Practice/CylinderExample/cmake-build-debug /mnt/d/Code/VTK_Pra/Practice/CylinderExample/cmake-build-debug /mnt/d/Code/VTK_Pra/Practice/CylinderExample/cmake-build-debug/CMakeFiles/vtk_window_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/vtk_window_autogen.dir/depend
 

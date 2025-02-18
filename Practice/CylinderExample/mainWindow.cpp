@@ -13,6 +13,8 @@ Mainwindow::Mainwindow(QWidget *parent)
       : QMainWindow(parent)
       ,ui(new Ui::MainWindow){
     ui->setupUi(this);
+
+
     vtkSmartPointer<vtkConeSource> cone = vtkSmartPointer<vtkConeSource>::New();
     vtkSmartPointer<vtkPolyDataMapper> mapper = vtkSmartPointer<vtkPolyDataMapper>::New();
     vtkSmartPointer<vtkActor> actor =  vtkSmartPointer<vtkActor>::New();
@@ -23,9 +25,17 @@ Mainwindow::Mainwindow(QWidget *parent)
     actor->SetMapper(mapper);
     renderer->AddActor(actor);
 
-    vtkNew<vtkRenderWindow> vtkRenderWindow;
-    vtkRenderWindow->AddRenderer(renderer);
-    ui->vtkWidget->setRenderWindow(vtkRenderWindow);
+    ui->vtkWidget->GetRenderWindow()->AddRenderer(renderer);
+    ui->vtkWidget->GetRenderWindow()->Render();
+
+
+//    vtkSmartPointer<vtkRenderWindow> renderWindow = ui->vtkWidget->renderWindow();
+//    renderWindow->AddRenderer(renderer);
+//    vtkSmartPointer<vtkRenderWindowInteractor> renderWindowInteractor =
+//        vtkSmartPointer<vtkRenderWindowInteractor>::New();
+//    renderWindowInteractor->SetRenderWindow(renderWindow);
+//    renderWindowInteractor->Initialize();
+//    renderWindow->Render();
 }
 
 

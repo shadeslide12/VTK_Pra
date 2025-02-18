@@ -1,7 +1,7 @@
 CMakeFiles/vtk_window.dir/vtk_window_autogen/mocs_compilation.cpp.o: \
- /mnt/d/Code/VTK/Practice/CylinderExample/cmake-build-debug/vtk_window_autogen/mocs_compilation.cpp \
+ /mnt/d/Code/VTK_Pra/Practice/CylinderExample/cmake-build-debug/vtk_window_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /mnt/d/Code/VTK/Practice/CylinderExample/cmake-build-debug/vtk_window_autogen/EWIEGA46WW/moc_mainWindow.cpp \
+ /mnt/d/Code/VTK_Pra/Practice/CylinderExample/cmake-build-debug/vtk_window_autogen/EWIEGA46WW/moc_mainWindow.cpp \
  /usr/include/c++/13/memory /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -113,7 +113,7 @@ CMakeFiles/vtk_window.dir/vtk_window_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/13/bits/atomic_base.h \
  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
  /usr/include/c++/13/backward/auto_ptr.h \
- /mnt/d/Code/VTK/Practice/CylinderExample/cmake-build-debug/vtk_window_autogen/EWIEGA46WW/../../../mainWindow.h \
+ /mnt/d/Code/VTK_Pra/Practice/CylinderExample/cmake-build-debug/vtk_window_autogen/EWIEGA46WW/../../../mainWindow.h \
  /home/tux/Qt/5.15.2/gcc_64/include/QtWidgets/QMainWindow \
  /home/tux/Qt/5.15.2/gcc_64/include/QtWidgets/qmainwindow.h \
  /home/tux/Qt/5.15.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \

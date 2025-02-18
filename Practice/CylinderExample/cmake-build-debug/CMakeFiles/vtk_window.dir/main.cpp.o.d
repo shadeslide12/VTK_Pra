@@ -1,5 +1,5 @@
 CMakeFiles/vtk_window.dir/main.cpp.o: \
- /mnt/d/Code/VTK/Practice/CylinderExample/main.cpp \
+ /mnt/d/Code/VTK_Pra/Practice/CylinderExample/main.cpp \
  /usr/include/stdc-predef.h \
  /home/tux/Qt/5.15.2/gcc_64/include/QtWidgets/QApplication \
  /home/tux/Qt/5.15.2/gcc_64/include/QtWidgets/qapplication.h \
@@ -246,7 +246,7 @@ CMakeFiles/vtk_window.dir/main.cpp.o: \
  /home/tux/Qt/5.15.2/gcc_64/include/QtCore/qmap.h \
  /home/tux/Qt/5.15.2/gcc_64/include/QtCore/qhash.h \
  /home/tux/Qt/5.15.2/gcc_64/include/QtCore/qshareddata.h \
- /mnt/d/Code/VTK/Practice/CylinderExample/mainWindow.h \
+ /mnt/d/Code/VTK_Pra/Practice/CylinderExample/mainWindow.h \
  /home/tux/Qt/5.15.2/gcc_64/include/QtWidgets/QMainWindow \
  /home/tux/Qt/5.15.2/gcc_64/include/QtWidgets/qmainwindow.h \
  /home/tux/Qt/5.15.2/gcc_64/include/QtWidgets/qwidget.h \

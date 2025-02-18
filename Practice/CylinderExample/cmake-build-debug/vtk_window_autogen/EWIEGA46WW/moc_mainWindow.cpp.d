@@ -1,5 +1,5 @@
-/mnt/d/Code/VTK/Practice/CylinderExample/cmake-build-debug/vtk_window_autogen/EWIEGA46WW/moc_mainWindow.cpp: /mnt/d/Code/VTK/Practice/CylinderExample/mainWindow.h \
-  /mnt/d/Code/VTK/Practice/CylinderExample/cmake-build-debug/vtk_window_autogen/moc_predefs.h \
+/mnt/d/Code/VTK_Pra/Practice/CylinderExample/cmake-build-debug/vtk_window_autogen/EWIEGA46WW/moc_mainWindow.cpp: /mnt/d/Code/VTK_Pra/Practice/CylinderExample/mainWindow.h \
+  /mnt/d/Code/VTK_Pra/Practice/CylinderExample/cmake-build-debug/vtk_window_autogen/moc_predefs.h \
   /home/tux/Qt/5.15.2/gcc_64/include/QtCore/qalgorithms.h \
   /home/tux/Qt/5.15.2/gcc_64/include/QtCore/qarraydata.h \
   /home/tux/Qt/5.15.2/gcc_64/include/QtCore/qatomic.h \
