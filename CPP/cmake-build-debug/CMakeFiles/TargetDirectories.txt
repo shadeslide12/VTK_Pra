@@ -1,0 +1,5 @@
+/mnt/d/Code/VTK/CPP/cmake-build-debug/CMakeFiles/MinimalQtVTKApp.dir
+/mnt/d/Code/VTK/CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/d/Code/VTK/CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/d/Code/VTK/CPP/cmake-build-debug/CMakeFiles/MinimalQtVTKApp_autogen_timestamp_deps.dir
+/mnt/d/Code/VTK/CPP/cmake-build-debug/CMakeFiles/MinimalQtVTKApp_autogen.dir

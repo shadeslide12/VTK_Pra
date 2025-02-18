@@ -1,0 +1,5 @@
+/mnt/d/Code/VTK/Practice/CylinderExample/cmake-build-debug/CMakeFiles/vtk_window.dir
+/mnt/d/Code/VTK/Practice/CylinderExample/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/d/Code/VTK/Practice/CylinderExample/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/d/Code/VTK/Practice/CylinderExample/cmake-build-debug/CMakeFiles/vtk_window_autogen_timestamp_deps.dir
+/mnt/d/Code/VTK/Practice/CylinderExample/cmake-build-debug/CMakeFiles/vtk_window_autogen.dir
